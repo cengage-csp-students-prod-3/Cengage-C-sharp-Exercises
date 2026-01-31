@@ -1,0 +1,11 @@
+
+Status: PASSED!
+Check: 1
+Test: Checks for correct use of `WriteLine` (4x)
+Reason: 
+      WriteLine("Somewhere over the rainbow");
+      WriteLine("Way up high");
+      WriteLine("There's a land that I heard of");
+      WriteLine("Once in a lullabye");
+    was found in the program output.None
+Timestamp: 2026-01-31 23:47:55.898031
