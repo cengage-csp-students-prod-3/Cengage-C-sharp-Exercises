@@ -9,4 +9,5 @@ class DebugOne2
       WriteLine("&        &");
       WriteLine("&        &");
       WriteLine("&&&&&&&&&&");
+   }
 }
