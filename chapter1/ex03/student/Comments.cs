@@ -5,6 +5,9 @@ class Comments
 {
 	static void Main()
 	{
-		// Write your code here
+		// This is a line comment
+		/* This is a block comment
+			Very cool!			 */
+		WriteLine("There are two different comments");
 	}
 }
