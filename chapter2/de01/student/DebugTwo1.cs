@@ -5,9 +5,9 @@ class DebugTwo1
 {
    static void Main()
    {
-      string name;
-      string bossName;
-      bool areNamesTheSame;
+      string name = "";
+      string bossName = "";
+      bool areNamesTheSame = true;
       Write("Enter your name >> ");
       name = ReadLine();
       Write("Hello {0}! Enter the name of your boss >> ", name);
