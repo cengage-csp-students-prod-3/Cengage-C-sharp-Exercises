@@ -1,24 +1,12 @@
 
-Status: FAILED!
-Reason: Unable to run DebugTwo2.cs
-Error: Cannot open assembly 'DebugTwo2.exe': No such file or directory.
+Status: PASSED!
+Check: 1
+Test: Finds Product case 1
+Reason: None
+Timestamp: 2026-02-09 03:22:40.910584
 
-Timestamp: 2026-02-09 03:20:37.182363
-
-Status: FAILED!
-Reason: Unable to run DebugTwo2.cs
-Error: Cannot open assembly 'DebugTwo2.exe': No such file or directory.
-
-Timestamp: 2026-02-09 03:20:37.182429
-
-Status: FAILED!
-Reason: Unable to run DebugTwo2.cs
-Error: Cannot open assembly 'DebugTwo2.exe': No such file or directory.
-
-Timestamp: 2026-02-09 03:20:37.194480
-
-Status: FAILED!
-Reason: Unable to run DebugTwo2.cs
-Error: Cannot open assembly 'DebugTwo2.exe': No such file or directory.
-
-Timestamp: 2026-02-09 03:20:37.194521
+Status: PASSED!
+Check: 2
+Test: Finds Product case 2
+Reason: None
+Timestamp: 2026-02-09 03:22:40.947705
