@@ -1,24 +1,20 @@
 
 Status: FAILED!
-Reason: Unable to run DebugTwo4.cs
-Error: Cannot open assembly 'DebugTwo4.exe': No such file or directory.
-
-Timestamp: 2026-02-09 03:48:28.705384
-
-Status: FAILED!
-Reason: Unable to run DebugTwo4.cs
-Error: Cannot open assembly 'DebugTwo4.exe': No such file or directory.
-
-Timestamp: 2026-02-09 03:48:28.705471
+Check: 1
+Test: Increment and decrement input case 1
+Reason: Unable to find '['You entered 88', 'One more than 88 is 89 and one less than 88 is 87']' in the program's output.
+Enter an integer >> You entered 88
+One more than 88 is 88 and one less than 89 is 87
+.
+Error : AssertionError - Unable to find One more than 88 is 89 and one less than 88 is 87 in the program's output.
+Timestamp: 2026-02-09 03:49:16.425826
 
 Status: FAILED!
-Reason: Unable to run DebugTwo4.cs
-Error: Cannot open assembly 'DebugTwo4.exe': No such file or directory.
-
-Timestamp: 2026-02-09 03:48:28.720413
-
-Status: FAILED!
-Reason: Unable to run DebugTwo4.cs
-Error: Cannot open assembly 'DebugTwo4.exe': No such file or directory.
-
-Timestamp: 2026-02-09 03:48:28.720485
+Check: 2
+Test: Increment and decrement input case 2
+Reason: Unable to find '['You entered 2393', 'One more than 2393 is 2394 and one less than 2393 is 2392']' in the program's output.
+Enter an integer >> You entered 2393
+One more than 2393 is 2393 and one less than 2394 is 2392
+.
+Error : AssertionError - Unable to find One more than 2393 is 2394 and one less than 2393 is 2392 in the program's output.
+Timestamp: 2026-02-09 03:49:16.445368
