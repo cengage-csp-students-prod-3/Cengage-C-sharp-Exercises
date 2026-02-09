@@ -15,9 +15,9 @@ class DebugTwo3
       Write("Enter the number of hours you worked this week >> ");
       hoursasString = ReadLine();
       Write("Enter your hourly rate >> ");
-      rateAsString = ReadLine()
-      hours = Convert.ToDouble(hoursAsStrinng);
-      rate = Convert.ToDouble(rateAsStrinng);
+      rateAsString = ReadLine();
+      hours = Convert.ToDouble(hoursAsString);
+      rate = Convert.ToDouble(rateAsString);
       gross = hours + rate;
       withholding = gross * WITHHOLDING_RATE;
       net = gross * withholding;
@@ -25,6 +25,6 @@ class DebugTwo3
 	 hours, rate.ToString("C", CultureInfo.GetCultureInfo("en-US")));
       WriteLine("Gross pay is {0}", gross.ToString("C", CultureInfo.GetCultureInfo("en-US")));
       WriteLine("Withholding is {0}", withholding.ToString("C", CultureInfo.GetCultureInfo("en-US")));
-      WriteLine("Net pay is {0}", netToString("C", CultureInfo.GetCultureInfo("en-US"))); 
+      WriteLine("Net pay is {0}", net.ToString("C", CultureInfo.GetCultureInfo("en-US"))); 
    }
 }
