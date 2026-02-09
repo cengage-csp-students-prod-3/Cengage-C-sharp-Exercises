@@ -9,11 +9,11 @@ class DebugTwo2
       string name;
       string firstString, secondSting;
       int first, second, product;
-      Write("Enter your name >> );
+      Write("Enter your name >> ");
       name = ReadLine;
       Write("Hello, {0}! Enter an integer >> ", name);
       firstString = ReadLine();
-      first = ConvertToInt32(firstString);
+      first = Convert.ToInt(firstString);
       Write("Enter another integer >> ");
       secondString = Readline();
       second = Convert.ToInt(secondString);
