@@ -1,24 +1,12 @@
 
-Status: FAILED!
-Reason: Unable to run DebugTwo3.cs
-Error: Cannot open assembly 'DebugTwo3.exe': No such file or directory.
+Status: PASSED!
+Check: 1
+Test: Calculates pay case 1
+Reason: None
+Timestamp: 2026-02-09 03:32:16.238315
 
-Timestamp: 2026-02-09 03:29:50.587051
-
-Status: FAILED!
-Reason: Unable to run DebugTwo3.cs
-Error: Cannot open assembly 'DebugTwo3.exe': No such file or directory.
-
-Timestamp: 2026-02-09 03:29:50.587126
-
-Status: FAILED!
-Reason: Unable to run DebugTwo3.cs
-Error: Cannot open assembly 'DebugTwo3.exe': No such file or directory.
-
-Timestamp: 2026-02-09 03:29:50.599626
-
-Status: FAILED!
-Reason: Unable to run DebugTwo3.cs
-Error: Cannot open assembly 'DebugTwo3.exe': No such file or directory.
-
-Timestamp: 2026-02-09 03:29:50.599676
+Status: PASSED!
+Check: 2
+Test: Calculates pay case 2
+Reason: None
+Timestamp: 2026-02-09 03:32:16.261459
