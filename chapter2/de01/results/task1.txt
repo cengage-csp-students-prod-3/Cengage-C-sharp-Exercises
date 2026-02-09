@@ -1,24 +1,12 @@
 
-Status: FAILED!
-Reason: Unable to run DebugTwo1.cs
-Error: Cannot open assembly 'DebugTwo1.exe': No such file or directory.
+Status: PASSED!
+Check: 1
+Test: Not your own boss
+Reason: None
+Timestamp: 2026-02-09 03:10:43.754724
 
-Timestamp: 2026-02-03 15:58:04.066881
-
-Status: FAILED!
-Reason: Unable to run DebugTwo1.cs
-Error: Cannot open assembly 'DebugTwo1.exe': No such file or directory.
-
-Timestamp: 2026-02-03 15:58:04.066951
-
-Status: FAILED!
-Reason: Unable to run DebugTwo1.cs
-Error: Cannot open assembly 'DebugTwo1.exe': No such file or directory.
-
-Timestamp: 2026-02-03 15:58:04.078646
-
-Status: FAILED!
-Reason: Unable to run DebugTwo1.cs
-Error: Cannot open assembly 'DebugTwo1.exe': No such file or directory.
-
-Timestamp: 2026-02-03 15:58:04.078694
+Status: PASSED!
+Check: 2
+Test: Own boss
+Reason: None
+Timestamp: 2026-02-09 03:10:43.774152
