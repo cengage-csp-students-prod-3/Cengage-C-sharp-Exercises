@@ -7,7 +7,7 @@ Enter an integer >> You entered 88
 One more than 88 is 88 and one less than 89 is 87
 .
 Error : AssertionError - Unable to find One more than 88 is 89 and one less than 88 is 87 in the program's output.
-Timestamp: 2026-02-09 03:49:16.425826
+Timestamp: 2026-02-09 03:52:06.172810
 
 Status: FAILED!
 Check: 2
@@ -17,4 +17,4 @@ Enter an integer >> You entered 2393
 One more than 2393 is 2393 and one less than 2394 is 2392
 .
 Error : AssertionError - Unable to find One more than 2393 is 2394 and one less than 2393 is 2392 in the program's output.
-Timestamp: 2026-02-09 03:49:16.445368
+Timestamp: 2026-02-09 03:52:06.191127
