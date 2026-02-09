@@ -13,10 +13,10 @@ class DebugTwo2
       name = ReadLine();
       Write("Hello, {0}! Enter an integer >> ", name);
       firstString = ReadLine();
-      first = Convert.ToInt(firstString);
+      first = Convert.ToInt32(firstString);
       Write("Enter another integer >> ");
       secondString = ReadLine();
-      second = Convert.ToInt(secondString);
+      second = Convert.ToInt32(secondString);
       product = first * second;
       WriteLine("Thank you, {0}. The product of {1} and {2} is {3}",
 	 name, first, second, product);
