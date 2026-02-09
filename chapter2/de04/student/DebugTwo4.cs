@@ -2,7 +2,7 @@
 // one more and one less than the entered integer
 using System;
 using static System.Console;
-classDebugTwo
+class DebugTwo
 {
    static void Main()
    {
