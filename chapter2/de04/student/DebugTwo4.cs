@@ -15,7 +15,7 @@ classDebugTwo
       enteredInteger = Convert.ToInt32(entry);
       more = enteredInteger + 1;
       less = enteredInteger - 1;
-      WriteLine("One more than (0) is {1} and one less than {2} is {3}",
+      WriteLine("One more than {0} is {1} and one less than {2} is {3}",
 	 enteredInteger, more, less);
    }
 }
