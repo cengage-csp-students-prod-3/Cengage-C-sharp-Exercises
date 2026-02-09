@@ -1,20 +1,12 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Increment and decrement input case 1
-Reason: Unable to find '['You entered 88', 'One more than 88 is 89 and one less than 88 is 87']' in the program's output.
-Enter an integer >> You entered 88
-One more than 88 is 88 and one less than 89 is 87
-.
-Error : AssertionError - Unable to find One more than 88 is 89 and one less than 88 is 87 in the program's output.
-Timestamp: 2026-02-09 03:53:01.244519
+Reason: None
+Timestamp: 2026-02-09 03:54:30.109930
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Increment and decrement input case 2
-Reason: Unable to find '['You entered 2393', 'One more than 2393 is 2394 and one less than 2393 is 2392']' in the program's output.
-Enter an integer >> You entered 2393
-One more than 2393 is 2393 and one less than 2394 is 2392
-.
-Error : AssertionError - Unable to find One more than 2393 is 2394 and one less than 2393 is 2392 in the program's output.
-Timestamp: 2026-02-09 03:53:01.264862
+Reason: None
+Timestamp: 2026-02-09 03:54:30.128632
