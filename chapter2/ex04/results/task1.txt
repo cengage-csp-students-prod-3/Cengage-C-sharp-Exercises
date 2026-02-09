@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: Next year employee salaries output correctly
+Reason: None
+Timestamp: 2026-02-09 04:59:42.328302
+
+Status: PASSED!
+Check: 2
+Test: Did not hard code answers into program's output
+Reason: WriteLine("Next year's salary for the first employee will be $26,000.00");` was found in the program.None
+Timestamp: 2026-02-09 04:59:42.328981
