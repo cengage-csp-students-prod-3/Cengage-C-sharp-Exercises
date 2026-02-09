@@ -2,7 +2,7 @@
 // one more and one less than the entered integer
 using System;
 using static System.Console;
-classDebugTwo4
+classDebugTwo
 {
    static void Main()
    {
@@ -12,10 +12,10 @@ classDebugTwo4
       Write("Enter an integer >> ");
       entry = ReadLine();
       WriteLine("You entered {0}", entry);
-      enterdInteger = Convert.ToInt32(entry);
+      enteredInteger = Convert.ToInt32(entry);
       more = enteredInteger + 1;
       less = enteredInteger - 1;
       WriteLine("One more than (0) is {1} and one less than {2} is {3}",
-	 enteredInteger, more less);
+	 enteredInteger, more, less);
    }
 }
