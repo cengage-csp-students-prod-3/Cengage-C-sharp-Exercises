@@ -33,7 +33,7 @@ class DebugFour3
            tuition = FLAT;
          else
             tuition = FLAT + (credits - HIGHCREDITS) * RATE;
-      if(year = SENIORYEAR)
+      if(year == SENIORYEAR)
          tuition =- tuition * DISCOUNT;
       WriteLine("For year {0}, with {1} credits",
          year, credits);
