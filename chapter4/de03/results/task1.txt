@@ -1,36 +1,24 @@
 
-Status: FAILED!
-Reason: Unable to run DebugFour3.cs
-Error: Cannot open assembly 'DebugFour3.exe': No such file or directory.
+Status: PASSED!
+Check: 1
+Test: 1-12 credit hours year 1
+Reason: None
+Timestamp: 2026-03-01 18:49:28.128924
 
-Timestamp: 2026-03-01 18:45:34.471083
-
-Status: FAILED!
-Reason: Unable to run DebugFour3.cs
-Error: Cannot open assembly 'DebugFour3.exe': No such file or directory.
-
-Timestamp: 2026-03-01 18:45:34.471183
-
-Status: FAILED!
-Reason: Unable to run DebugFour3.cs
-Error: Cannot open assembly 'DebugFour3.exe': No such file or directory.
-
-Timestamp: 2026-03-01 18:45:34.483748
+Status: PASSED!
+Check: 2
+Test: 13-18 credit hours year 3
+Reason: None
+Timestamp: 2026-03-01 18:49:28.150690
 
 Status: FAILED!
-Reason: Unable to run DebugFour3.cs
-Error: Cannot open assembly 'DebugFour3.exe': No such file or directory.
-
-Timestamp: 2026-03-01 18:45:34.483797
-
-Status: FAILED!
-Reason: Unable to run DebugFour3.cs
-Error: Cannot open assembly 'DebugFour3.exe': No such file or directory.
-
-Timestamp: 2026-03-01 18:45:34.496213
-
-Status: FAILED!
-Reason: Unable to run DebugFour3.cs
-Error: Cannot open assembly 'DebugFour3.exe': No such file or directory.
-
-Timestamp: 2026-03-01 18:45:34.496260
+Check: 3
+Test: Over 18 hours year 4
+Reason: Unable to find '['For year 4, with 20 credits', 'Tuition is $1,785.00']' in the program's output.
+How many credits? 
+Year in school? 
+For year 4, with 20 credits
+Tuition is ($315.00)
+.
+Error : AssertionError - Unable to find Tuition is $1,785.00 in the program's output.
+Timestamp: 2026-03-01 18:49:28.172476
