@@ -5,6 +5,15 @@ class CheckCredit
 {
 	static void Main()
 	{
-		// Write your code here
+		string inputString;
+		double purchase;
+		WriteLine("Enter a purchase price: ");
+		inputString = ReadLine();
+		purchase = Convert.ToDouble(inputString);
+
+		if (purchase > 8000)
+			WriteLine("You have exceeded the credit limit");
+		else
+			WriteLine("Approved");
 	}
 }
