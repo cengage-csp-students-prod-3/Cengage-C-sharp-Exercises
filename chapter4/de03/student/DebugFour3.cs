@@ -10,7 +10,7 @@ class DebugFour3
 {
    static void Main()
    {
-      int credits; year;
+      int credits, year;
       string inputString;
       double tuition;
       const int LOWCREDITS = 12;
