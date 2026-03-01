@@ -18,21 +18,21 @@ class DebugFour4
       const int MEDSALES = 5000;
       const int HIGHSALES = 10000;
       const double LOWPCT = 0.05;
-      const double MEDPCT = 0.02;
+      const double MEDPCT = 0.07;
       const int BONUS1 = 1000;
       const int BONUS2 = 1500;
       WriteLine("What was the sales amount? ");
       inputString = ReadLine();
-      sales = Convert.ToDouble(inputtString);
+      sales = Convert.ToDouble(inputString);
       commission = LOWPCT * sales;
       if(sales <= LOWSALES)
-        commission += (sales - LOWSALES) * MEDPCT;
+        commission = sales * LOWPCT;
+      else if(sales <= MEDSALES)
+        commission = (sales - LOWSALES) * MEDPCT + (LOWSALES * LOWPCT);
+      else if(sales <= HIGHSALES)
+        commission = (MEDSALES - LOWSALES) * MEDPCT + BONUS1 + (LOWSALES * LOWPCT);
       else
-        if(sales == MEDSALES)
-           commission += BONUS1;
-         else
-           if(sales > HIGHSALES)
-             commission = BONUS2; 
+        commission = (MEDSALES - LOWSALES) * MEDPCT + BONUS1 + (LOWSALES * LOWPCT) + BONUS2;
       WriteLine("Sales: {0}\nCommission: {1}",
         sales.ToString("C", CultureInfo.GetCultureInfo("en-US")), commission.ToString("C", CultureInfo.GetCultureInfo("en-US")));
   }
