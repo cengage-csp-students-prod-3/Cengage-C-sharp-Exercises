@@ -1,0 +1,27 @@
+
+Status: PASSED!
+Check: 1
+Test: No condiments on hot dog
+Reason: None
+Timestamp: 2026-03-01 02:58:14.750003
+
+Status: PASSED!
+Check: 2
+Test: All condiments on hot dog
+Reason: None
+Timestamp: 2026-03-01 02:58:14.771813
+
+Status: FAILED!
+Check: 3
+Test: Just cheese on hot dog
+Reason: Unable to find '['Your total is $2.49']' in the program's output.
+Do you want chili on your dog? Do you want cheese on your dog? Your total is $2.00
+.
+Error : AssertionError - Unable to find Your total is $2.49 in the program's output.
+Timestamp: 2026-03-01 02:58:14.793991
+
+Status: PASSED!
+Check: 4
+Test: Just chili on hot dog
+Reason: None
+Timestamp: 2026-03-01 02:58:14.815734
