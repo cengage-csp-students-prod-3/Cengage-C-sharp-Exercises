@@ -10,7 +10,7 @@ class Twitter
 
 		WriteLine("Write your message: ");
 		inputString = ReadLine();
-		messageLength = inputString.length;
+		messageLength = inputString.Length;
 
 		if (messageLength > 140)
 			WriteLine("The message is too long.");
