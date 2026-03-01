@@ -34,7 +34,7 @@ class DebugFour3
          else
             tuition = FLAT + (credits - HIGHCREDITS) * RATE;
       if(year == SENIORYEAR)
-         tuition =- tuition * DISCOUNT;
+         tuition -= tuition * DISCOUNT;
       WriteLine("For year {0}, with {1} credits",
          year, credits);
       WriteLine("Tuition is {0}", tuition.ToString("C", CultureInfo.GetCultureInfo("en-US")));
