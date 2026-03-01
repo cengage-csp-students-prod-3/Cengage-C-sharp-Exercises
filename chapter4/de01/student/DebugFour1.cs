@@ -23,7 +23,7 @@ class DebugFour1
             price = BASIC_DOG_PRICE + CHILI_PRICE;
       else
          if(wantCheese == "Y")
-            price = BASIC_DOG_PRICE;
+            price = BASIC_DOG_PRICE + CHEESE_PRICE;
          else
             price = BASIC_DOG_PRICE;
       WriteLine("Your total is {0}", price.ToString("C", CultureInfo.GetCultureInfo("en-US")));
