@@ -24,7 +24,6 @@ class DebugFour4
       WriteLine("What was the sales amount? ");
       inputString = ReadLine();
       sales = Convert.ToDouble(inputString);
-      commission = LOWPCT * sales;
       if(sales <= LOWSALES)
         commission = sales * LOWPCT;
       else if(sales <= MEDSALES)
