@@ -1,7 +1,6 @@
 // Program asks user to enter a stock number
 // If the stock number is not 209, 312, or 414 the user must reenter the number
 // The program displays the correct price
-using System;
 using static System.Console;
 using System.Globalization;
 class DebugFive2
@@ -16,10 +15,10 @@ class DebugFive2
       string stockNum;
       Write("Please enter the stock number of the item you want ");
       stockNum = ReadLine();
-      while(stockNum != ITEM209 || stockNum != ITEM312 || stockNum != ITEM414)
+      while(stockNum != ITEM209 && stockNum != ITEM312 && stockNum != ITEM414)
       {
          WriteLine("Invalid stock number. Please enter again. ");
-         stockNum = ConsoleReadLine();
+         stockNum = ReadLine();
       }
       if(stockNum == ITEM209)
          price = PRICE209;
@@ -28,6 +27,6 @@ class DebugFive2
             price = PRICE312;
          else
             price = PRICE414;
-      WriteLine("The price for item # {0} is {1}}", stockNum, price.ToString("C", CultureInfo.GetCultureInfo("en-US")));
+      WriteLine("The price for item # {0} is {1}", stockNum, price.ToString("C", CultureInfo.GetCultureInfo("en-US")));
    }
 }
