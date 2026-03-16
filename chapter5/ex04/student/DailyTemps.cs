@@ -8,7 +8,7 @@ class DailyTemps
 		int temp = 0;
 		int total = 0;
 		int count = 0;
-		int average = 0;
+		double average = 0;
 
 		while (temp != 999)
 		{
@@ -24,12 +24,12 @@ class DailyTemps
 				count++;
 			}
 			else
-			WriteLine("Valid temperatures range from -20 to 130. Please reenter temperatures.");
+			WriteLine("Valid temperatures range from -20 to 130. Please reenter temperature.");
 		}
 
 		if (count > 0)
-		average = total / count;
-
+		average = (double)total / count;
+		
 		WriteLine("Number of temperatures entered: " + count);
 		WriteLine("Average temperature: " + average);
 	}
