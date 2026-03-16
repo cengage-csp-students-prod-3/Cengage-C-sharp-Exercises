@@ -25,9 +25,9 @@ class DebugFive2
          price = PRICE209;
       else
          if(stockNum == ITEM312)
-            price = PRICE414;
-         else
             price = PRICE312;
+         else
+            price = PRICE414;
       WriteLine("The price for item # {0} is {1}}", stockNum, price.ToString("C", CultureInfo.GetCultureInfo("en-US")));
    }
 }
