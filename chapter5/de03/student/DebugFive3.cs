@@ -9,15 +9,15 @@ class DebugFive3
    {
       char letter;
       int number;
-      const int LOW == 0;
-      const int HIGH == 99;
+      const int LOW = 0;
+      const int HIGH = 99;
       const int NUMINROW = 20;
-      for(letter = 'A'; letter < 'Z'; ++letter)
-        for(number = LOW; number > HIGH; ++number)
+      for(letter = 'A'; letter <= 'Z'; ++letter)
+        for(number = LOW; number <= HIGH; ++number)
         {
-           if(number % NUMINROW0)
+           if(number % NUMINROW == 0)
               WriteLine();
-           Write("{0}{{1} ", letter, number.ToString("D2"));
+           Write("{0}{1} ", letter, number.ToString("D2"));
         }
    }
 }
