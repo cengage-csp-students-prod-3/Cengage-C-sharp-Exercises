@@ -5,14 +5,14 @@ class SumFiveInts
 {
 	static void Main()
 	{
-		int number = 0;
-		int sum;
+		int number;
+		int sum = 0;
 
-		for (x = 1; x <= 5; x++) {
-		Writeline("Enter an integer: ");
-		number = Convert.toInt32(Readline());
+		for (int x = 1; x <= 5; x++) {
+		WriteLine("Enter an integer: ");
+		number = Convert.ToInt32(ReadLine());
 		sum += number;
 	}
-	Write("The sum is " + sum);
-	
+	WriteLine("The sum is " + sum);	
+}
 }
