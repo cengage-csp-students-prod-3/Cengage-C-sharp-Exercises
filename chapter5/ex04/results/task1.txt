@@ -1,0 +1,36 @@
+
+Status: FAILED!
+Check: 1
+Test: Successful Output I
+Reason: Unable to find '['2', '37.5']' in the program's output.
+Please enter a daily high temperature.
+Please enter a daily high temperature.
+Please enter a daily high temperature.
+Valid temperatures range from -20 to 130. Please reenter temperatures.
+Number of temperatures entered: 2
+Average temperature: 37
+.
+Error : AssertionError - Unable to find a number close enough to 37.5 (+/-0.00) in the program's output.
+Timestamp: 2026-03-16 03:06:10.567363
+
+Status: PASSED!
+Check: 2
+Test: Successful Output II
+Reason: None
+Timestamp: 2026-03-16 03:06:10.587954
+
+Status: FAILED!
+Check: 3
+Test: Invalid temperature 
+Reason: Unable to find '['Valid temperatures range from -20 to 130. Please reenter temperature.', '2', '48.5']' in the program's output.
+Please enter a daily high temperature.
+Valid temperatures range from -20 to 130. Please reenter temperatures.
+Please enter a daily high temperature.
+Please enter a daily high temperature.
+Please enter a daily high temperature.
+Valid temperatures range from -20 to 130. Please reenter temperatures.
+Number of temperatures entered: 2
+Average temperature: 48
+.
+Error : AssertionError - Unable to find Valid temperatures range from -20 to 130. Please reenter temperature. in the program's output.
+Timestamp: 2026-03-16 03:06:10.610489
