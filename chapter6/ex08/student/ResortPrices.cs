@@ -22,6 +22,6 @@ class ResortPrices
 		
 		total = rates[index] * nights;
 
-		WriteLine("Price her night is {0} \nTotal for {1} night(s) is {2}", rates[index].ToString("C", CultureInfo.GetCultureInfo("en-US")), nights, total.ToString("C", CultureInfo.GetCultureInfo("en-US")));
+		WriteLine("Price per night is {0} \nTotal for {1} night(s) is {2}", rates[index].ToString("C", CultureInfo.GetCultureInfo("en-US")), nights, total.ToString("C", CultureInfo.GetCultureInfo("en-US")));
 	}
 }
