@@ -1,0 +1,11 @@
+
+Status: FAILED!
+Check: 1
+Test: Price for six nights
+Reason: Unable to find '['Price per night is $160.00', 'Total for 6 night(s) is $960.00']' in the program's output.
+Enter amount of nights: 
+Price her night is $160.00 
+Total for 6 night(s) is $960.00
+.
+Error : AssertionError - Unable to find Price per night is $160.00 in the program's output.
+Timestamp: 2026-04-11 21:28:48.841696

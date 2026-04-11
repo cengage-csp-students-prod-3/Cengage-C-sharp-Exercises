@@ -8,4 +8,4 @@ Price her night is $180.00
 Total for 4 night(s) is $720.00
 .
 Error : AssertionError - Unable to find Price per night is $180.00 in the program's output.
-Timestamp: 2026-04-11 21:28:17.518786
+Timestamp: 2026-04-11 21:28:48.278930
