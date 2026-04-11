@@ -7,7 +7,7 @@ using System;
 using static System.Console;
 class DebugSeven4
 {
-   void Main()
+   static void Main()
    {
       int[] firstArray = {10, 9, 2, 3, 5, 6};
       int[] secondArray = {112, 456, 782};
@@ -22,7 +22,7 @@ class DebugSeven4
    private static double FindMedian(int[] array)
    {
       double median;
-      middle = array.Length / 2;
+      int middle = array.Length / 2;
       Array.Sort(array);
       if(array.Length % 2 == 0)
           median = (double)(array[middle - 1] + array[middle]) / 2;
