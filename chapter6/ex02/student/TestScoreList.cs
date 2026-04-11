@@ -21,7 +21,9 @@ class TestScoreList
 			total += score;
 		}
 
-		double average = total / TestScoreList.Length;
+		double dblAverage =(double)total / TestScoreList.Length;
+		int average = (int)dblAverage;
+
 		
 		for (int i = 0; i < TestScoreList.Length; i++)
 		{
