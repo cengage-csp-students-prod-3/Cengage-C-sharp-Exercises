@@ -26,7 +26,7 @@ class TestScoreList
 		for (int i = 0; i < TestScoreList.Length; i++)
 		{
 			int difference = TestScoreList[i] - average;
-			Write("Test # " + i + ":    " + TestScoreList[i] + " From average:    " +
+			Write("Test # " + i + ": " + TestScoreList[i] + " From average: " +
 			+ difference + "\n");
 		}
 	}
