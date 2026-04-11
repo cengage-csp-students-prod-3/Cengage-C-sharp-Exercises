@@ -16,6 +16,7 @@ class ConvertMilesToKilometers
 
 	public static double ConvertToKilometers(double miles)
 	{
-		return miles * 1.60934;
+		double kms = miles * 1.60934;
+		return kms;
 	}
 }
