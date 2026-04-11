@@ -1,14 +1,12 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Test`ConvertToKilometers` with 10 miles
-Reason: Assert.Fail failed. Method 'ConvertToKilometers' found but has incorrect signature. Expected: public static double ConvertToKilometers(double miles) Found: public static Double ConvertToKilometers(Int32 miles)
-Error : str - AssertionError
-Timestamp: 2026-04-11 23:10:27.491072
+Reason: None
+Timestamp: 2026-04-11 23:13:18.750556
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Test`ConvertToKilometers` with 0 miles
-Reason: Assert.Fail failed. Method 'ConvertToKilometers' found but has incorrect signature. Expected: public static double ConvertToKilometers(double miles) Found: public static Double ConvertToKilometers(Int32 miles)
-Error : str - AssertionError
-Timestamp: 2026-04-11 23:10:35.465473
+Reason: None
+Timestamp: 2026-04-11 23:13:27.293911
