@@ -5,12 +5,12 @@ class DebugSeven1
    static void Main()
    {
       DisplayWebAddress();
-      Writeline("Shop at Shopper's World");
+      WriteLine("Shop at Shopper's World");
       DisplayWebAddress();
       WriteLine("The best bargains from around the world");
       DisplayWebAddress();
    }
-   public void DisplayWebAddress()
+   public static void DisplayWebAddress()
    {
       WriteLine("------------------------------");
       WriteLine("Visit us on the web at:");
