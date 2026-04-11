@@ -4,11 +4,11 @@ class DebugSeven1
 {
    static void Main()
    {
-      DisplayWebAddress;
+      DisplayWebAddress();
       Writeline("Shop at Shopper's World");
-      DisplayWebAddress;
+      DisplayWebAddress();
       WriteLine("The best bargains from around the world");
-      DisplayWebAddres;
+      DisplayWebAddress();
    }
    public void DisplayWebAddress()
    {
