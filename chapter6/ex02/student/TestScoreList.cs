@@ -21,13 +21,11 @@ class TestScoreList
 			total += score;
 		}
 
-		double dblAverage =(double)total / TestScoreList.Length;
-		int average = (int)dblAverage;
-
+		double average =(double)total / TestScoreList.Length;
 		
 		for (int i = 0; i < TestScoreList.Length; i++)
 		{
-			int difference = TestScoreList[i] - average;
+			double difference = TestScoreList[i] - average;
 			Write("Test # " + i + ": " + TestScoreList[i] + " From average: " +
 			+ difference + "\n");
 		}
