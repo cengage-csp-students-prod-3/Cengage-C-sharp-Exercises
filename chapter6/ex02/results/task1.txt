@@ -13,10 +13,10 @@ Test # 6:    47 From average:    -13
 Test # 7:    54 From average:    -6
 .
 Error : AssertionError - 
-Timestamp: 2026-04-11 16:42:23.516209
+Timestamp: 2026-04-11 16:43:01.946955
 
 Status: PASSED!
 Check: 2
 Test: Outputs how far score is from average case 2
 Reason: None
-Timestamp: 2026-04-11 16:42:23.535154
+Timestamp: 2026-04-11 16:43:01.965617
