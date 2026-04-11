@@ -1,0 +1,17 @@
+
+Status: PASSED!
+Check: 1
+Test: `DisplayContactInfo` contains contact info (>= 3 types of info)
+Reason: 
+       WriteLine("C# Company");
+       WriteLine("Phone: 555-1234     Cell: 555-0912");
+       WriteLine("Email: csharpcompany@csharp.com");
+       WriteLine("On the Web at www.csharpcompanyforyou.com");
+   ` was found in the program.None
+Timestamp: 2026-04-11 22:45:35.705772
+
+Status: PASSED!
+Check: 3
+Test: Three instances of the contact information fields are present in the programs output
+Reason: None
+Timestamp: 2026-04-11 22:45:35.724310
