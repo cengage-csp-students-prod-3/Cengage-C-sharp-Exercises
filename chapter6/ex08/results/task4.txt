@@ -1,11 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Price for eight nights
-Reason: Unable to find '['Price per night is $145.00', 'Total for 8 night(s) is $1,160.00']' in the program's output.
-Enter amount of nights: 
-Price her night is $145.00 
-Total for 8 night(s) is $1,160.00
-.
-Error : AssertionError - Unable to find Price per night is $145.00 in the program's output.
-Timestamp: 2026-04-11 21:28:49.409513
+Reason: None
+Timestamp: 2026-04-11 21:31:42.323527

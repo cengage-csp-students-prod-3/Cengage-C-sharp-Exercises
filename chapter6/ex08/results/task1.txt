@@ -3,4 +3,4 @@ Status: PASSED!
 Check: 1
 Test: Price for one night
 Reason: None
-Timestamp: 2026-04-11 21:30:02.587987
+Timestamp: 2026-04-11 21:31:40.567542
