@@ -22,7 +22,7 @@ class DebugSeven4
    private static double FindMedian(int[] array)
    {
       double median;
-      middle = Array.Length / 2;
+      middle = array.Length / 2;
       Array.Sort(array);
       if(array.Length % 2 == 0)
           median = (double)(array[middle - 1] + array[middle]) / 2;
