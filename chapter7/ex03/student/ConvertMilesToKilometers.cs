@@ -8,13 +8,13 @@ class ConvertMilesToKilometers
 	static void Main()
 	{
 		WriteLine("Enter number of miles: ");
-		int miles = Convert.ToInt32(ReadLine());
+		double miles = Convert.ToDouble(ReadLine());
 
 		double kms = ConvertToKilometers(miles);
 		WriteLine("{0} miles is {1} kilometers", miles, kms);
 	}
 
-	public static double ConvertToKilometers(int miles)
+	public static double ConvertToKilometers(double miles)
 	{
 		double kms = miles * 1.60934;
 		return kms;
