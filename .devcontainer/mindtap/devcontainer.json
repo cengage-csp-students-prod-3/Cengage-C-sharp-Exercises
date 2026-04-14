@@ -1,26 +1,6 @@
 {
   "name": "MindTap",
-  "image": "mcr.microsoft.com/devcontainers/dotnet:1-8.0",
-  "features": {
-    "ghcr.io/devcontainers-contrib/features/bash-command:1": {}
-  },
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "cengage.cengage-companion",
-        "ms-dotnettools.csharp",
-        "ms-vsliveshare.vsliveshare"
-      ],
-      "settings": {
-        "workbench.colorTheme": "Default Dark Modern",
-        "settingsSync.enable": false,
-        "extensions.ignoreRecommendations": true,
-        "git.openRepositoryInParentFolders": "never",
-        "editor.formatOnSave": false,
-        "editor.defaultFormatter": "ms-dotnettools.csharp"
-      }
-    }
-  },
+  "image": "ghcr.io/internal-csp-hes-engineering/container-images-csharp:latest",
   "forwardPorts": [3005],
   "portsAttributes": {
     "3005": {
