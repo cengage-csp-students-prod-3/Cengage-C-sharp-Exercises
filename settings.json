@@ -1,3 +1,7 @@
 {
-  "language": "cs"
+  "language": "cs",
+  "gui": false,
+  "shell": false,
+  "restrictedFiles": [],
+  "isFirstTimeSetup": false
 }
