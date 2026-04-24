@@ -11,13 +11,13 @@ class FixedDebugNine3
    {
       Car myCar = new Car(32000, "red");
       Car yourCar = new Car(14000);
-      Car theirCar;
-      WriteLine("My {0} car cost {1}", myCar.color,
-         myCarr.Price.ToString("c2", CultureInfo.GetCultureInfo("en-US")));
+      Car theirCar = new Car();
+      WriteLine("My {0} car cost {1}", myCar.Color,
+         myCar.Price.ToString("c2", CultureInfo.GetCultureInfo("en-US")));
       WriteLine("Your {0} car cost {1}",
-         yourCar.Color, youRCar.price.Tostring("c2", CultureInfo.GetCultureInfo("en-US")));
+         yourCar.Color, yourCar.Price.ToString("c2", CultureInfo.GetCultureInfo("en-US")));
       WriteLine("Their {0} car cost {1}",
-         theirCar.Color, theirCar.price.ToString("c2", CultureInfo.GetCultureInfo("en-US")));
+         theirCar.Color, theirCar.Price.ToString("c2", CultureInfo.GetCultureInfo("en-US")));
   }
 }
 class Car
@@ -27,12 +27,12 @@ class Car
    public Car() : this(10000, "black")
    {
    }
-   public Car(int price) : this()
+   public Car(int price) : this(price, "black")
    {
    }
    public Car(int price, string color)
    {
-       Price = this;
+       Price = price;
        Color = color;
    }
    public string Color
@@ -50,7 +50,7 @@ class Car
    {
       get
       {
-         return Price;
+         return price;
       }
       set
       {
