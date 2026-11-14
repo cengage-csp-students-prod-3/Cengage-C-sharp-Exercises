@@ -8,7 +8,7 @@ class DebugEleven02
    {
       int num = 0, denom = 0;
       double result;
-      bool dataEntryIsValid;
+      bool dataEntryIsValid = false;
       while(!dataEntryIsValid)
       {
          try
