@@ -19,7 +19,7 @@ class FDebugEleven03
       }
    }
 }
-public class NegativeSalaryException :
+public class NegativeSalaryException : Exception
 {
    private static string msg =
      "Employee salary is negative.";
@@ -35,9 +35,13 @@ public class Employee
    public int IdNum
    {
       get
+      {
         return idNum;
+      }
       set 
+      {
         idNum = value;
+      }
    }
    public double Salary
    {
@@ -47,11 +51,11 @@ public class Employee
       }
       set
       {
-        if(value < 0)
+        if (value < 0)
         {
            NegativeSalaryException salExcep =
               new NegativeSalaryException();
-           throw(sal);
+           throw(salExcep);
         }
         salary = value;
       }
